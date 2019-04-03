@@ -9,12 +9,12 @@
 <body>
 	<div id="show"></div>
 
-	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function() {
 			setInterval(function () {
 				$('#show').load('data.php')
-			}, 3000);
+			}, 1000);
 		});
 	</script>
 </body>
